@@ -13,8 +13,8 @@ By Ymelda Monari
 
 
 ## Description
-This is a java application that uses command line interface and allows a left rotation of letters  any number of spaces (key) to give an encrypted message.
-For example  THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG becomes QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD with a left rotation of key 3.
+This is a java application that uses command line interface and allows a left rotation of letters or characters to  any number of spaces (key) to give an encrypted message.
+For example  THE  becomes QEB  with a left rotation of key 3.
 
 
 ## Behaviour Driven Development (BDD)
