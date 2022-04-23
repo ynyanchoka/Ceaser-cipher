@@ -13,7 +13,7 @@ By Ymelda Monari
 
 
 ## Description
-This is a java application that allows a left rotation of letters  any number of spaces (key) in which each letter is shifted a given number of places also known as a key, down the alphabet to given an encrypted message.
+This is a java application that uses command line interface and allows a left rotation of letters  any number of spaces (key) to give an encrypted message.
 For example  THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG becomes QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD with a left rotation of key 3.
 
 
