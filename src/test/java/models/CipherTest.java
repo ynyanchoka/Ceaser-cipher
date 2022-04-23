@@ -17,9 +17,9 @@ public class CipherTest {
     }
 //decrypt test
     @Test
-    public void resetsCharacter_resetsCharacterAsRequiredByUser_3() {
+    public void resetsCharacter_resetsCharacterAsRequiredByUser_5() {
         Decoding decoding  = new Decoding ();
-        assertEquals("X",decoding.decrypt("U",3));
+        assertEquals("P",decoding.decrypt("K",5));
     }
 
     @Test
@@ -27,4 +27,10 @@ public class CipherTest {
         Decoding decoding  = new Decoding ();
         assertEquals("THE",decoding.decrypt("QEB",3));
     }
+
+//    @Test
+//    public void moreThan25_inputMoreThan25_3() {
+//       App main  = new App ();
+//        assertEquals("THE",main.("QEB",3));
+//    }
 }
