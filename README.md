@@ -13,7 +13,7 @@ By Ymelda Monari
 
 
 ## Description
-This is a java application that uses command line interface and allows a left rotation of letters or characters to  any number of spaces (key) to give an encrypted message.
+This is a java application that uses command line interface and allows a left rotation of letters or characters to  any number of spaces (key) given by the user to give an encrypted message.
 For example  THE  becomes QEB  with a left rotation of key 3.
 
 
