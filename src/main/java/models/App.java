@@ -11,22 +11,22 @@ public class App {
         System.out.println("Welcome to Ceaser Cipher where we code and decode any text!");
 
 
-        System.out.println("Please enter the sentence:");
+        System.out.println("Please enter a sentence without spacing:");
         String plain = scanner.nextLine();
 
         System.out.println("Please enter a key between 1 to 25: ");
         int Key =  scanner.nextInt();
 
             if (Key < 1 || Key > 25) {
-                System.out.printf(" The key must be between 1 and 25, you entered %d.\n so we will take it as the highest value which is 25", Key );
+                System.out.printf(" The key must be between 1 and 25, you entered %d.\n", Key );
             }
         String condition = scanner.nextLine();
 
 
         String cipherText = encrypt (plain,Key);
-        System.out.println( "The cipher text is: " + cipherText);
+        System.out.println( "The encrypted text is: " + cipherText);
         String getCipherText = decrypt (plain,Key);
-        System.out.println( "The decoded  text is: " +  decrypt (cipherText, Key));
+        System.out.println( "The decrypted  text is: " +  decrypt (cipherText, Key));
     }
 
 }
