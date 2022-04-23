@@ -33,6 +33,8 @@ For example  THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG becomes QEB NRFZH YOLTK
 ## Technologies used
 + IntelliJ IDEA
 + Java
++ Gradle
+
 
 
 ## Contact information
