@@ -8,7 +8,7 @@ import static models.Encoding.encrypt;
 public class App {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Welcome to Ceaser Cipher where we code and decode any text!");
+        System.out.println("Welcome to Ceaser Cipher where we encrypt and decrypt any text!");
 
 
         System.out.println("Please enter a sentence without spacing:");
