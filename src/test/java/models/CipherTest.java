@@ -7,6 +7,6 @@ public class CipherTest {
     @Test
     public void shiftCharacter_shiftsCharacterAsRequiredByUser_3() {
         Encoding encoding  = new Encoding ();
-        assertEquals("HELLO",encoding.encrypt("EBIIL",3));
+        assertEquals("EBIIL",encoding.encrypt("HELLO",3));
     }
 }
